@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-brand-bg: #F5F5F0;
+  --color-brand-cement: #E4E3E0;
+  --color-brand-ink: #141414;
+  --color-brand-accent: #FF5A00;
+  --color-brand-sand: #D2B48C;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-ink font-sans antialiased selection:bg-brand-ink selection:text-brand-bg;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply tracking-tight font-medium;
+  }
+}
+
+.mask-reveal {
+  clip-path: inset(0 0 100% 0);
+}
+
+.mask-reveal-active {
+  clip-path: inset(0 0 0 0);
+  transition: clip-path 1.2s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.underline-grow {
+  @apply relative inline-block;
+}
+
+.underline-grow::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-0 h-px bg-current transition-all duration-500 ease-out;
+}
+
+.underline-grow:hover::after {
+  @apply w-full;
+}
+
+/* Custom scrollbar for premium feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-brand-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-ink/20 rounded-full hover:bg-brand-ink/40 transition-colors;
+}
