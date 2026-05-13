@@ -72,7 +72,7 @@ export default function Materials() {
                   style={{ backgroundColor: f.color }}
                 >
                   <img 
-                    src={`/assets/acabado-${formatName(f.name)}.png`}
+                    src={`/assets/acabado-${formatName(f.name)}.jpg`}
                     alt={`Acabado ${f.name}`}
                     className="w-full h-full object-cover opacity-0 transition-opacity duration-300"
                     onLoad={(e) => e.currentTarget.classList.remove('opacity-0')}
@@ -112,10 +112,10 @@ export default function Materials() {
                         style={{ backgroundColor: opt.color }}
                       >
                         <img 
-                          src={`/assets/tela-${formatName(fabric.category)}-${formatName(opt.name)}.png`}
+                          src={`/assets/tela-${formatName(fabric.category)}-${formatName(opt.name)}.jpg`}
                           alt={`Tela ${fabric.category} ${opt.name}`}
                           className="w-full h-full object-cover absolute inset-0 z-10 opacity-0 transition-opacity duration-300"
-                          title={`Sugerencia de nombre archivo: tela-${formatName(fabric.category)}-${formatName(opt.name)}.png`}
+                          title={`Sugerencia de nombre archivo: tela-${formatName(fabric.category)}-${formatName(opt.name)}.jpg`}
                           onLoad={(e) => e.currentTarget.classList.remove('opacity-0')}
                           onError={(e) => {
                             e.currentTarget.style.display = 'none';

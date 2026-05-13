@@ -51,10 +51,10 @@ export const categories: Category[] = [
         description: "Sistema de brazo abatible (store) práctico y sencillo. La solución ideal para balcones y barandas que permite un efecto cortina total.",
         image: "/assets/solaris.jpg",
           gallery: [
-          "/assets/nimbus-gallery-1.jpg",
-          "/assets/nimbus-gallery-2.jpg",
-          "/assets/nimbus-gallery-3.jpg",
-          "/assets/nimbus-gallery-4.jpg"
+          "/assets/solaris-gallery-1.png",
+          "/assets/solaris-gallery-2.png",
+          "/assets/solaris-gallery-3.png",
+          "/assets/solaris-gallery-4.jpg"
           
         ],
         specs: {
