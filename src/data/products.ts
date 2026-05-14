@@ -124,8 +124,7 @@ export const categories: Category[] = [
           medidas: "Ancho hasta 6.00m | Salida hasta 3.50m",
           soportes: ["Black", "White"],
           telas: [
-            "Soltis 96 - Black", "Soltis 96 - White", "Soltis 96 - Grey",
-            "Screen Outdoor - Black/Brown", "Screen Outdoor - White", "Screen Outdoor - Grey",
+            
             "Acrílica Advance - Black", "Acrílica Advance - Beige", "Acrílica Advance - White", "Acrílica Advance - Grey"
           ]
         }
@@ -139,8 +138,7 @@ export const categories: Category[] = [
           medidas: "Ancho hasta 6.00m | Salida hasta 3.50m",
           soportes: ["Black", "White"],
           telas: [
-            "Soltis 96 - Black", "Soltis 96 - White", "Soltis 96 - Grey",
-            "Screen Outdoor - Black/Brown", "Screen Outdoor - White", "Screen Outdoor - Grey",
+            
             "Acrílica Advance - Black", "Acrílica Advance - Beige", "Acrílica Advance - White", "Acrílica Advance - Grey"
           ]
         }
