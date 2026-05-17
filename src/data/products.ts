@@ -119,7 +119,7 @@ export const categories: Category[] = [
         id: "a1-premium",
         name: "Toldo A1 Premium",
         description: "Sistema avanzado de toldo proyectante con acabados premium y máxima resistencia.",
-        image: "https://picsum.photos/seed/a1premium/800/600",
+        image: "/assets/a1-premium.jpg",
         specs: {
           medidas: "Ancho hasta 6.00m | Salida hasta 3.50m",
           soportes: ["Black", "White"],
@@ -133,7 +133,7 @@ export const categories: Category[] = [
         id: "m1-premium",
         name: "Toldo M1 Premium",
         description: "El máximo confort en sistemas proyectantes motorizados con estética vanguardista.",
-        image: "https://picsum.photos/seed/m1premium/800/600",
+        image: "/assets/m1-premium.jpg",
         specs: {
           medidas: "Ancho hasta 6.00m | Salida hasta 3.50m",
           soportes: ["Black", "White"],

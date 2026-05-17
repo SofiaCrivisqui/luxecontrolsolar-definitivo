@@ -143,7 +143,7 @@ export default function ProductPage() {
                   <div className="w-8 h-8 rounded-xl bg-brand-cement flex items-center justify-center">
                     <Layers size={16} />
                   </div>
-                  <h4 className="font-bold uppercase tracking-widest text-xs">Opciones de Tela</h4>
+                  <h4 className="font-bold uppercase tracking-widest text-xs">Tela recomendada </h4>
                 </div>
                 <div className="space-y-4">
                   {Object.entries(groupedTelas).map(([category, options]) => (
