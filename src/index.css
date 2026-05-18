@@ -20,6 +20,16 @@
   h1, h2, h3, h4 {
     @apply tracking-tight font-medium;
   }
+
+  /* Protect images from being easily downloaded/dragged */
+  img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
+    pointer-events: none;
+  }
 }
 
 .mask-reveal {

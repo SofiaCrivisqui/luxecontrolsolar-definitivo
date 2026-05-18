@@ -30,10 +30,15 @@ export default function ArchitectsSection() {
               </div>
             </div>
 
-            <button className="flex items-center gap-3 bg-brand-ink text-brand-bg px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform">
+           <a 
+              href="https://wa.me/5491100000000?text=Hola! Me interesa hablar con un asesor técnico."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-brand-ink text-brand-bg px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform"
+            >
               Hablar con asesor técnico
               <ArrowRight size={18} />
-            </button>
+            </a>
           </div>
 
           <div className="lg:w-1/2 relative">

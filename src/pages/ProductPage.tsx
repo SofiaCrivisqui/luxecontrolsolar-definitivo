@@ -47,12 +47,6 @@ export default function ProductPage() {
     return acc;
   }, {} as Record<string, { full: string, colorName: string }[]>);
 
-  const isSolaris = product.id === "solaris";
-  const isNimbus = product.id === "nimbus";
-  const isIndico = product.id === "indico";
-  const isRetractable = product.id === "smart" || product.id === "ares" || product.id === "a1-premium" || product.id === "m1-premium";
-  const hasDropArm = isSolaris || isIndico;
-
   const formatName = (str: string) => str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
   const expectedFilename = `toldo-${product.id}-${formatName(selectedFabric)}-${formatName(selectedSupport)}.png`;
 
@@ -143,7 +137,7 @@ export default function ProductPage() {
                   <div className="w-8 h-8 rounded-xl bg-brand-cement flex items-center justify-center">
                     <Layers size={16} />
                   </div>
-                  <h4 className="font-bold uppercase tracking-widest text-xs">Tela recomendada </h4>
+                  <h4 className="font-bold uppercase tracking-widest text-xs">Tela Recomendada</h4>
                 </div>
                 <div className="space-y-4">
                   {Object.entries(groupedTelas).map(([category, options]) => (
@@ -208,66 +202,14 @@ export default function ProductPage() {
               <h1 className="text-5xl md:text-6xl font-medium tracking-tighter mb-6">{product.name}</h1>
               <p className="text-xl opacity-60 font-light leading-relaxed mb-12">{product.description}</p>
 
-              {hasDropArm && (
+              {product.features && product.features.length > 0 && (
                 <div className="mb-12 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div className="flex items-start gap-3">
-                    <Check size={18} className="text-brand-accent mt-1 shrink-0" />
-                    <p className="text-sm opacity-70">Sistema de brazos de tensión progresiva.</p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Check size={18} className="text-brand-accent mt-1 shrink-0" />
-                    <p className="text-sm opacity-70">Ideal para ventanas y balcones.</p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Check size={18} className="text-brand-accent mt-1 shrink-0" />
-                    <p className="text-sm opacity-70">Control solar preciso y estético.</p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Check size={18} className="text-brand-accent mt-1 shrink-0" />
-                    <p className="text-sm opacity-70">Diseño clásico con tecnología moderna.</p>
-                  </div>
-                </div>
-              )}
-
-              {isRetractable && (
-                <div className="mb-12 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div className="flex items-start gap-3">
-                    <Check size={18} className="text-brand-accent mt-1 shrink-0" />
-                    <p className="text-sm opacity-70">Brazos invisibles articulados.</p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Check size={18} className="text-brand-accent mt-1 shrink-0" />
-                    <p className="text-sm opacity-70">Cofre de protección (en modelo Ares).</p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Check size={18} className="text-brand-accent mt-1 shrink-0" />
-                    <p className="text-sm opacity-70">Máxima amplitud sin obstáculos.</p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Check size={18} className="text-brand-accent mt-1 shrink-0" />
-                    <p className="text-sm opacity-70">Accionamiento suave y silencioso.</p>
-                  </div>
-                </div>
-              )}
-
-              {isNimbus && (
-                <div className="mb-12 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div className="flex items-start gap-3">
-                    <Check size={18} className="text-brand-accent mt-1 shrink-0" />
-                    <p className="text-sm opacity-70">Screen exterior para grandes dimensiones.</p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Check size={18} className="text-brand-accent mt-1 shrink-0" />
-                    <p className="text-sm opacity-70">Accionamiento manual o motorizado.</p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Check size={18} className="text-brand-accent mt-1 shrink-0" />
-                    <p className="text-sm opacity-70">Guiado por cable (4mm) o varilla (10mm).</p>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Check size={18} className="text-brand-accent mt-1 shrink-0" />
-                    <p className="text-sm opacity-70">Instalación versátil con o sin cajón.</p>
-                  </div>
+                  {product.features.map((feature, idx) => (
+                    <div key={idx} className="flex items-start gap-3">
+                      <Check size={18} className="text-brand-accent mt-1 shrink-0" />
+                      <p className="text-sm opacity-70">{feature}</p>
+                    </div>
+                  ))}
                 </div>
               )}
 
@@ -304,9 +246,7 @@ export default function ProductPage() {
                 >
                   Consultar Presupuesto
                 </a>
-                <button className="flex-1 bg-brand-ink text-brand-bg py-5 rounded-2xl font-bold hover:bg-brand-ink/90 transition-colors">
-                  Descargar PDF Técnico
-                </button>
+                
               </div>
             </motion.div>
           </div>

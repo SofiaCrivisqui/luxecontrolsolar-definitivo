@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { MessageCircle, Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -13,12 +14,11 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "Soluciones", href: "#soluciones" },
-    { name: "Arquitectos", href: "#arquitectos" },
-    { name: "Proceso", href: "#proceso" },
-    { name: "Contacto", href: "#contacto" },
+    { name: "Soluciones", href: "/#soluciones" },
+    { name: "Arquitectos", href: "/#arquitectos" },
+    { name: "Proceso", href: "/#proceso" },
+    { name: "Contacto", href: "/#contacto" },
   ];
-
   const linkClass = isScrolled
   ? "text-brand-ink/70 hover:text-brand-ink"
   : "text-white/85 hover:text-white";

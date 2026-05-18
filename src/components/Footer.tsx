@@ -1,4 +1,5 @@
 import { MessageCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -6,10 +7,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
           <div className="lg:col-span-1">
-            <a href="#" className="text-2xl font-semibold tracking-tighter flex items-center gap-2 mb-8">
-              <span className="w-10 h-10 bg-brand-bg text-brand-ink flex items-center justify-center rounded-sm text-sm font-bold">L</span>
-              LUXE <span className="font-light opacity-60">CONTROL SOLAR</span>
-            </a>
+            <Link to="/" className="flex items-center gap-2 mb-8">
+              <img src="/assets/logo.png" alt="Luxe Control Solar" className="h-10" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextElementSibling?.classList.remove('hidden') }} />
+              <div className="hidden text-2xl font-semibold tracking-tighter flex items-center gap-2">
+                <span className="w-10 h-10 bg-brand-bg text-brand-ink flex items-center justify-center rounded-sm text-sm font-bold">L</span>
+                LUXE <span className="font-light opacity-60">CONTROL SOLAR</span>
+              </div>
+            </Link>
             <p className="text-sm opacity-50 leading-relaxed max-w-xs">
               Líderes en soluciones de control solar premium para arquitectura contemporánea en Argentina.
             </p>
@@ -18,20 +22,20 @@ export default function Footer() {
           <div>
             <h4 className="text-xs uppercase tracking-[0.2em] font-bold mb-8 opacity-40">Navegación</h4>
             <ul className="space-y-4 text-sm font-medium">
-              <li><a href="#soluciones" className="opacity-60 hover:opacity-100 transition-opacity">Soluciones</a></li>
-              <li><a href="#arquitectos" className="opacity-60 hover:opacity-100 transition-opacity">Arquitectos</a></li>
-              <li><a href="#proceso" className="opacity-60 hover:opacity-100 transition-opacity">Proceso</a></li>
-              <li><a href="#contacto" className="opacity-60 hover:opacity-100 transition-opacity">Contacto</a></li>
+              <li><Link to="/#soluciones" className="opacity-60 hover:opacity-100 transition-opacity">Soluciones</Link></li>
+              <li><Link to="/#arquitectos" className="opacity-60 hover:opacity-100 transition-opacity">Arquitectos</Link></li>
+              <li><Link to="/#proceso" className="opacity-60 hover:opacity-100 transition-opacity">Proceso</Link></li>
+              <li><Link to="/#contacto" className="opacity-60 hover:opacity-100 transition-opacity">Contacto</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-xs uppercase tracking-[0.2em] font-bold mb-8 opacity-40">Productos</h4>
             <ul className="space-y-4 text-sm font-medium">
-              <li><a href="#" className="opacity-60 hover:opacity-100 transition-opacity">Toldos proyectantes</a></li>
-              <li><a href="#" className="opacity-60 hover:opacity-100 transition-opacity">Toldos verticales</a></li>
-              <li><a href="#" className="opacity-60 hover:opacity-100 transition-opacity">Toldos punto recto</a></li>
-              <li><a href="#" className="opacity-60 hover:opacity-100 transition-opacity">Motorización Somfy</a></li>
+              <li><Link to="/soluciones/toldos-proyectantes" className="opacity-60 hover:opacity-100 transition-opacity">Toldos proyectantes</Link></li>
+              <li><Link to="/soluciones/toldos-verticales" className="opacity-60 hover:opacity-100 transition-opacity">Toldos verticales</Link></li>
+              <li><Link to="/soluciones/toldos-punto-recto" className="opacity-60 hover:opacity-100 transition-opacity">Toldos punto recto</Link></li>
+              <li><Link to="/#soluciones" className="opacity-60 hover:opacity-100 transition-opacity">Ver todas las soluciones</Link></li>
             </ul>
           </div>
 
