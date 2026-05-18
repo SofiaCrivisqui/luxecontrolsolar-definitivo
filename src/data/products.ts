@@ -41,7 +41,7 @@ export const categories: Category[] = [
           "/assets/nimbus-gallery-1.jpg",
           "/assets/nimbus-gallery-2.jpg",
           "/assets/nimbus-gallery-3.jpg",
-          "/assets/nimbus-gallery-4.jpg"
+          "/assets/nimbus-gallery-4.png"
           
         ],
         

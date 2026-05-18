@@ -36,7 +36,7 @@ const iconClass = isScrolled ? "text-brand-ink" : "text-white";
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <a href="#" className="flex items-center gap-3 py-1">
   <img
-  src="/assets/logo-luxe-control-solar.png"
+  src="/assets/logo-2.png"
   alt="Luxe Control Solar"
   className="h-9 md:h-10 w-auto max-w-[160px] object-contain origin-left scale-[1.25] md:scale-[1.35]"
   loading="eager"
