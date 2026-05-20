@@ -5,7 +5,7 @@ const steps = [
   { title: "Propuesta", desc: "Diseño a medida y presupuesto detallado con especificaciones textiles." },
   { title: "Fabricación", desc: "Producción artesanal con componentes europeos de alta precisión." },
   { title: "Instalación", desc: "Montaje profesional en seco, limpio y con configuración domótica." },
-  { title: "Postventa", desc: "Garantía escrita de 5 años y soporte técnico permanente." },
+  { title: "Postventa", desc: "Garantía escrita de 1 año y soporte técnico permanente." },
 ];
 
 export default function Process() {

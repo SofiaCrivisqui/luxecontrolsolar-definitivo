@@ -213,7 +213,7 @@ export default function ProductPage() {
                 </div>
               )}
 
-              <div className="space-y-10">
+             <div className="space-y-10">
                 {/* Medidas */}
                 <div className="p-8 bg-white rounded-3xl shadow-sm border border-brand-ink/5">
                   <div className="flex items-center gap-4 mb-4">
@@ -222,7 +222,34 @@ export default function ProductPage() {
                     </div>
                     <h4 className="font-bold uppercase tracking-widest text-sm">Especificaciones</h4>
                   </div>
-                  <p className="text-2xl font-medium tracking-tight">{product.specs.medidas}</p>
+                  <div className="text-xl md:text-2xl font-medium tracking-tight flex flex-col gap-2">
+                    {(() => {
+                      const parts = product.specs.medidas.split('|').map(m => m.trim()).filter(Boolean);
+                      const groups: string[] = [];
+                      let currentGroup: string[] = [];
+                      let currentPrefix = '';
+                      
+                      parts.forEach(part => {
+                        const prefix = part.split(' ')[0].toLowerCase();
+                        if (currentPrefix !== prefix) {
+                          if (currentGroup.length > 0) {
+                            groups.push(currentGroup.join(' | '));
+                          }
+                          currentGroup = [part];
+                          currentPrefix = prefix;
+                        } else {
+                          currentGroup.push(part);
+                        }
+                      });
+                      if (currentGroup.length > 0) {
+                        groups.push(currentGroup.join(' | '));
+                      }
+                      
+                      return groups.map((group, idx) => (
+                        <span key={idx} className="block">{group}</span>
+                      ));
+                    })()}
+                  </div>
                 </div>
 
                 {/* Accionamiento */}

@@ -3,11 +3,10 @@ import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
 
 const faqs = [
-  { q: "¿Cuánto tiempo demora la fabricación?", a: "El plazo estándar es de 15 a 20 días hábiles desde la confirmación de medidas y seña." },
-  { q: "¿Resisten vientos fuertes?", a: "Nuestros sistemas están certificados para Clase 2 de viento. Incluimos sensores que retraen el toldo automáticamente ante ráfagas peligrosas." },
-  { q: "¿Qué garantía ofrecen?", a: "Ofrecemos 5 años de garantía escrita en los mecanismos y motorización, y 10 años en la solidez del color de los textiles." },
-  { q: "¿Se pueden motorizar sistemas existentes?", a: "En la mayoría de los casos sí, siempre que la estructura original esté en buen estado técnico." },
-  { q: "¿Realizan envíos al interior?", a: "Sí, realizamos envíos a todo el país con instructivos de instalación detallados para equipos locales." },
+  { q: "¿Cuánto tiempo demora la Instalación?", a: "El plazo estándar es de 15 a 20 días hábiles desde la confirmación de medidas y seña." },
+  { q: "¿Resisten vientos fuertes?", a: "La resistencia al viento depende del modelo de toldo y de sus medidas. Según la configuración, algunos sistemas cuentan con clasificación Clase 2, apta para vientos de hasta 38 km/h, mientras que otros modelos ofrecen mayor resistencia. Además, contamos con la opción de incorporar sensor de viento, que permite retraer el toldo automáticamente ante ráfagas fuertes para proteger el sistema." },
+  { q: "¿Qué garantía ofrecen?", a: "Ofrecemos 1 año de garantía escrita en los mecanismos y motorización." },
+  { q: "¿Se pueden motorizar sistemas existentes?", a: "En la mayoría de los casos sí, siempre que la estructura original esté en buen estado técnico y pertenezcan a nuestra marca." },
   { q: "¿Qué mantenimiento requieren?", a: "Mínimo. Solo limpieza periódica con agua y jabón neutro. No requieren lubricación externa." },
 ];
 

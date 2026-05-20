@@ -55,7 +55,7 @@ const iconClass = isScrolled ? "text-brand-ink" : "text-white";
             </a>
           ))}
           <a 
-            href="https://wa.me/5491100000000" 
+            href="https://wa.me/5493517660196" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-brand-accent text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:scale-105 transition-transform shadow-lg shadow-brand-accent/20"
@@ -92,7 +92,7 @@ const iconClass = isScrolled ? "text-brand-ink" : "text-white";
             </a>
           ))}
           <a 
-            href="https://wa.me/5491100000000" 
+            href="https://wa.me/5493517660196" 
             className="flex items-center justify-center gap-2 bg-brand-accent text-white py-4 rounded-xl font-bold"
           >
             <MessageCircle size={20} />

@@ -46,7 +46,7 @@ export const categories: Category[] = [
         ],
         
         specs: {
-          medidas: "Áreas hasta 25 m² | Cajón de 115 mm",
+          medidas: "Ancho min 1.00m | Ancho max 6.00m |Alto min 1.00m | Alto max 5.00m |",
           soportes: ["Black", "White"],
           telas: [
             "Screen Outdoor - Black/Brown", "Screen Outdoor - White", "Screen Outdoor - Grey"
@@ -70,7 +70,7 @@ export const categories: Category[] = [
           "/assets/solaris-gallery-4.jpg"
         ],
         specs: {
-          medidas: "Ancho hasta 5.00m | Brazos de 0.50m a 1.20m",
+          medidas: "Ancho min 1.00m | Ancho max 6.00m | Alto min 1.00m | Alto max 5.00m |",
           soportes: ["Black", "White"],
           telas: [
             "Soltis 96 - Black", "Soltis 96 - White", "Soltis 96 - Grey"
@@ -103,7 +103,7 @@ export const categories: Category[] = [
           
         ],
         specs: {
-          medidas: "Ancho hasta 5.00m | Salida hasta 2.50m",
+          medidas: "Ancho min 1.76m | Ancho max 4.50m |Brazos 1.50m y 2.00m",
           soportes: ["Black", "White"],
           telas: [
            
@@ -130,7 +130,7 @@ export const categories: Category[] = [
           
         ],
         specs: {
-          medidas: "Ancho hasta 6.00m | Salida hasta 3.50m",
+          medidas: "Ancho min 1.76m | Ancho max 6.00m |Brazos 1.50m,2.00m, 2.50m y 3.00m",
           soportes: ["Black", "White"],
           telas: [
            
@@ -151,7 +151,7 @@ export const categories: Category[] = [
         ],
         
         specs: {
-          medidas: "Ancho hasta 6.00m | Salida hasta 3.50m",
+          medidas: "Ancho min 1.76m | Ancho max 6.00m |Brazos 1.50m,2.00m, 2.50m y 3.00m |",
           soportes: ["Black", "White"],
           telas: [
             
@@ -169,9 +169,17 @@ export const categories: Category[] = [
           "Sustentación multibrazos (de más de dos brazos).",
           "Inclinación ajustable.",
           "Cuidada estética en todos sus componentes."
+          
+        ],
+         gallery: [
+          "/assets/m1-premium-gallery-1.jpg",
+          "/assets/m1-premium-gallery-2.jpg",
+          "/assets/m1-premium-gallery-3.jpg",
+          "/assets/m1-premium-gallery-4.png"
+          
         ],
         specs: {
-          medidas: "Ancho hasta 6.00m | Salida hasta 3.50m",
+          medidas: "Ancho min 1.76m | Ancho max 6.50m |Brazos 1.50m,2.00m, 2.50m y 3.00m |",
           soportes: ["Black", "White"],
           telas: [
             
@@ -205,7 +213,7 @@ export const categories: Category[] = [
           
         ],
         specs: {
-          medidas: "Ancho hasta 4.00m | Brazos hasta 1.50m",
+          medidas: "Ancho min 1.00m | Ancho max 6.00m |Brazos 1.00m y  1.20m|",
           soportes: ["Black", "White"],
           telas: [
             

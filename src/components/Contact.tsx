@@ -33,8 +33,8 @@ export default function Contact() {
             </div>
             <h3 className="text-xl font-medium mb-3">Teléfono</h3>
             <p className="opacity-60 text-sm leading-relaxed">
-              +54 9 11 0000-0000<br />
-              +54 11 4000-0000
+              +54 9 351225-9762<br />
+              +54 9 351 766-0196
             </p>
           </div>
 
@@ -47,10 +47,10 @@ export default function Contact() {
               info@luxecontrolsolar.com.ar
             </p>
             <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 bg-brand-ink/10 rounded-full flex items-center justify-center hover:bg-brand-ink hover:text-brand-bg transition-colors">
+              <a href="https://www.instagram.com/luxecontrolsolar?igsh=czA4cDk5N2pleHV3" className="w-10 h-10 bg-brand-ink/10 rounded-full flex items-center justify-center hover:bg-brand-ink hover:text-brand-bg transition-colors">
                 <Instagram size={18} />
               </a>
-              <a href="#" className="w-10 h-10 bg-brand-ink/10 rounded-full flex items-center justify-center hover:bg-brand-ink hover:text-brand-bg transition-colors">
+              <a href="https://www.facebook.com/luxecontrolsolar" className="w-10 h-10 bg-brand-ink/10 rounded-full flex items-center justify-center hover:bg-brand-ink hover:text-brand-bg transition-colors">
                 <Facebook size={18} />
               </a>
             </div>
@@ -63,7 +63,7 @@ export default function Contact() {
             Nuestro equipo de especialistas está disponible en WhatsApp para brindarle una respuesta inmediata y asesoramiento técnico.
           </p>
           <a 
-            href="https://wa.me/5491100000000" 
+            href="https://wa.me/5493517660196" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 bg-brand-accent text-white py-4 px-8 rounded-full font-bold hover:scale-105 transition-transform"

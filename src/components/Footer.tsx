@@ -42,8 +42,8 @@ export default function Footer() {
           <div>
             <h4 className="text-xs uppercase tracking-[0.2em] font-bold mb-8 opacity-40">Social</h4>
             <ul className="space-y-4 text-sm font-medium">
-              <li><a href="#" className="opacity-60 hover:opacity-100 transition-opacity">Instagram</a></li>
-              <li><a href="#" className="opacity-60 hover:opacity-100 transition-opacity">Pinterest</a></li>
+              <li><a href="https://www.instagram.com/luxecontrolsolar?igsh=czA4cDk5N2pleHV3" className="opacity-60 hover:opacity-100 transition-opacity">Instagram</a></li>
+              <li><a href="https://www.facebook.com/luxecontrolsolar" className="opacity-60 hover:opacity-100 transition-opacity">Pinterest</a></li>
               <li><a href="#" className="opacity-60 hover:opacity-100 transition-opacity">LinkedIn</a></li>
             </ul>
           </div>
@@ -64,7 +64,7 @@ export default function Footer() {
       {/* Sticky Mobile CTA */}
       <div className="md:hidden fixed bottom-6 left-6 right-6 z-40">
         <a 
-          href="https://wa.me/5491100000000"
+          href="https://wa.me/5493517660196"
           className="flex items-center justify-center gap-3 bg-brand-accent text-white py-5 rounded-2xl font-bold shadow-2xl shadow-brand-accent/40"
         >
           <MessageCircle size={20} />
