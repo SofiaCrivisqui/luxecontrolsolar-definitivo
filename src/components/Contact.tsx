@@ -19,11 +19,11 @@ export default function Contact() {
             <div className="w-14 h-14 bg-brand-ink text-brand-bg rounded-full flex items-center justify-center mb-6">
               <MapPin size={24} />
             </div>
-            <h3 className="text-xl font-medium mb-3">Showroom</h3>
+            <h3 className="text-xl font-medium mb-3">Fabrica</h3>
             <p className="opacity-60 text-sm leading-relaxed">
-              Av. del Libertador 1234<br />
-              CABA, Argentina<br />
-              Lunes a Viernes de 10 a 18hs
+              Bv Los alemanes 3851<br />
+              Córdoba, Argentina<br />
+            
             </p>
           </div>
 
@@ -33,7 +33,7 @@ export default function Contact() {
             </div>
             <h3 className="text-xl font-medium mb-3">Teléfono</h3>
             <p className="opacity-60 text-sm leading-relaxed">
-              +54 9 351225-9762<br />
+              <br />
               +54 9 351 766-0196
             </p>
           </div>
@@ -44,7 +44,7 @@ export default function Contact() {
             </div>
             <h3 className="text-xl font-medium mb-3">Email & Redes</h3>
             <p className="opacity-60 text-sm leading-relaxed mb-4">
-              info@luxecontrolsolar.com.ar
+              comercial@luxecontrolsolar.com.ar
             </p>
             <div className="flex gap-3">
               <a href="https://www.instagram.com/luxecontrolsolar?igsh=czA4cDk5N2pleHV3" className="w-10 h-10 bg-brand-ink/10 rounded-full flex items-center justify-center hover:bg-brand-ink hover:text-brand-bg transition-colors">

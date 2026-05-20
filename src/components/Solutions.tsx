@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const solutions = [
   {
     title: "Toldos Verticales",
-    description: "Protección solar vertical con sistema ZIP o guías, ideal para balcones y galerías.",
+    description: "Protección solar vertical, ideal para balcones y galerías.",
     image: "/assets/toldo-vertical.jpg",
-    features: ["Sistema ZIP anti-viento", "Tejidos Screen", "Privacidad total"],
+    features: [ "Sistema discreto y adaptable", "Tejidos Screen", "Privacidad total"],
     id: "toldos-verticales"
   },
   {

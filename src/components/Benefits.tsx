@@ -4,7 +4,7 @@ import { Thermometer, Shield, Eye, Clock, Zap, Settings, Layout, Award } from "l
 const benefits = [
   { icon: Thermometer, title: "Confort térmico", desc: "Reduce la ganancia de calor solar hasta un 90%." },
   { icon: Shield, title: "Protección UV", desc: "Preserva muebles y pisos del desgaste solar." },
-  { icon: Eye, title: "Privacidad", desc: "Control total de la visibilidad hacia el interior." },
+  { icon: Eye, title: "Control visual", desc: "Regula la visibilidad y reduce la exposición del espacio." },
   { icon: Award, title: "Durabilidad exterior", desc: "Materiales resistentes a la corrosión y rayos UV." },
   { icon: Zap, title: "Maniobra suave", desc: "Sistemas motorizados con tecnología Somfy." },
   { icon: Settings, title: "Cero mantenimiento", desc: "Diseñados para durar décadas sin intervenciones." },

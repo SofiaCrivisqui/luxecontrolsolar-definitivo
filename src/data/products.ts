@@ -29,11 +29,11 @@ export const categories: Category[] = [
       {
         id: "nimbus",
         name: "Toldo Nimbus",
-        description: "Sistema de recogida vertical de alta performance indicado para cubrir grandes superficies vidriadas. ",
+        description: "Sistema vertical de alta performance indicado para cubrir grandes superficies vidriadas. ",
         image:  "/assets/nimbus.jpg",
         features: [
           "Screen exterior para grandes dimensiones.",
-          "Sistema de guiado por cable de 4 mm o varilla de 10 mm de acero inoxidable.",
+          "Sistema de guiado por cable de 4 mm de acero inoxidable.",
           "Control solar preciso y estético.",
           "Diseño clásico con tecnología moderna."
         ],
@@ -56,7 +56,7 @@ export const categories: Category[] = [
       {
         id: "solaris",
         name: "Toldo Solaris",
-        description: "Sistema de brazo abatible o store práctico y sencillo de usar. Es la solución perfecta para la instalación en cualquier tipo de balcón o baranda. Ofrece la posibilidad de conseguir un efecto cortina si se fija en posición vertical.",
+        description: "Sistema vertical con brazo abatible  y sencillo de usar. Es la solución perfecta para la instalación en cualquier tipo de balcón o baranda.",
         image: "/assets/solaris.jpg",
          features: [
           "Distintas posibilidades de ángulo brazo.",
@@ -87,7 +87,7 @@ export const categories: Category[] = [
       {
         id: "smart",
         name: "Toldo Smart",
-        description: "De diseño sobrio y contemporáneo, es un sistema concebido para instalarse en balcones o fachadas.",
+        description: "Diseño sobrio y contemporáneo, ideal para balcones y espacios de dimensiones reducidas. Su estética liviana y funcional se adapta a fachadas modernas, aportando protección solar y confort sin perder elegancia.",
         image: "/assets/smart-principal.jpg",
         features: [
           "Brazo articulado Smart de gran resistencia con sistema de tensión interna.",
@@ -114,7 +114,7 @@ export const categories: Category[] = [
       {
         id: "ares",
         name: "Toldo Ares",
-        description: "Diseñado con líneas aerodinámicas, permite adaptarse a cualquier tipo de arquitectura exterior.",
+        description: "Modelo premium con sistema encofrado que oculta completamente la lona y los brazos al cerrarse. Su diseño minimalista y sofisticado se integra perfectamente a arquitecturas modernas, priorizando la estética sin resignar protección y durabilidad.",
         image: "/assets/ares.jpg",
         features: [
           "Brazo articulado Premium de gran resistencia con sistema de tensión interna.",
@@ -141,7 +141,7 @@ export const categories: Category[] = [
        {
         id: "a1-premium",
         name: "Toldo A1 Premium",
-        description: "Sistema caracterizado por su sencillez y resistencia, que se integra en los ambientes más particulares.",
+        description:"Modelo de líneas simples y refinadas, pensado para integrarse a distintos estilos arquitectónicos. Su estructura resistente lo convierte en una excelente opción para cubrir superficies de mayores dimensiones con una estética limpia y equilibrada.",
         image: "/assets/a1-premium.jpg",
         features: [
           "Brazo articulado Premium de gran resistencia con sistema de tensión interna.",
@@ -162,7 +162,7 @@ export const categories: Category[] = [
       {
         id: "m1-premium",
         name: "Toldo M1 Premium",
-        description: "El máximo confort en sistemas proyectantes motorizados con estética vanguardista.",
+        description: " Modelo de líneas simples y refinadas, pensado para integrarse a distintos estilos arquitectónicos. Su estructura resistente lo convierte en una excelente opción para cubrir superficies de mayores dimensiones con una estética limpia y equilibrada.",
         image: "/assets/m1-premium.jpg",
         features: [
           "Brazo articulado Premium de gran resistencia con sistema de tensión interna.",

@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 
 const steps = [
+  { title: "Asesoramiento", desc: "Análisis inicial del proyecto, necesidades de uso y alternativas de solución." },
   { title: "Relevamiento", desc: "Visita técnica para toma de medidas láser y análisis de asoleamiento." },
   { title: "Propuesta", desc: "Diseño a medida y presupuesto detallado con especificaciones textiles." },
   { title: "Fabricación", desc: "Producción artesanal con componentes europeos de alta precisión." },
@@ -21,7 +22,7 @@ export default function Process() {
           {/* Horizontal line for desktop */}
           <div className="hidden lg:block absolute top-1/2 left-0 w-full h-px bg-brand-ink/10 -translate-y-1/2" />
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 relative z-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 lg:gap-8 xl:gap-12 relative z-10">
             {steps.map((s, idx) => (
               <motion.div 
                 key={s.title}

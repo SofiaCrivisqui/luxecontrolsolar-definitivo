@@ -32,7 +32,7 @@ export default function BeforeAfter() {
                 <div className="text-4xl font-serif italic opacity-20">01</div>
                 <div>
                   <h4 className="font-bold mb-2">Sin obra invasiva</h4>
-                  <p className="text-sm opacity-60">Instalación precisa sobre carpinterías existentes o nuevas.</p>
+                  <p className="text-sm opacity-60">Instalación precisa sobre fachadas existentes o nuevas.</p>
                 </div>
               </div>
               <div className="flex gap-6">
