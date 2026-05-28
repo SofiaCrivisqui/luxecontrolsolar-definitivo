@@ -34,4 +34,3 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./dist/
         server-dir: ./public_html/
-        delete-clean: false # Ponlo en true si quieres que borre archivos viejos que ya no existan en tu repo
