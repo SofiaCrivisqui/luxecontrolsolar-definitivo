@@ -41,7 +41,7 @@ export const categories: Category[] = [
           "/assets/nimbus-gallery-1.jpg",
           "/assets/nimbus-gallery-2.jpg",
           "/assets/nimbus-gallery-3.jpg",
-          "/assets/nimbus-gallery-4.png"
+          "/assets/nimbus-gallery-4.jpg"
           
         ],
         
@@ -66,7 +66,7 @@ export const categories: Category[] = [
         gallery: [
           "/assets/solaris-gallery-1.png",
           "/assets/solaris-gallery-2.png",
-          "/assets/solaris-gallery-3.png",
+          "/assets/solaris-gallery-3.jpg",
           "/assets/solaris-gallery-4.jpg"
         ],
         specs: {
@@ -126,7 +126,7 @@ export const categories: Category[] = [
           "/assets/ares-gallery-1.png",
           "/assets/ares-gallery-2.png",
           "/assets/ares-gallery-3.jpg",
-          "/assets/ares-gallery-4.png"
+          "/assets/ares-gallery-4.jpg"
           
         ],
         specs: {
@@ -148,6 +148,12 @@ export const categories: Category[] = [
           "Inclinación ajustable.",
           "Cuidada estética en todos sus componentes.",
           "Facilidad de instalación."
+        ],
+         gallery: [
+          "/assets/a1-premium-gallery-1.jpeg",
+          "/assets/a1-premium-gallery-2.jpg"
+          
+          
         ],
         
         specs: {
@@ -174,8 +180,8 @@ export const categories: Category[] = [
          gallery: [
           "/assets/m1-premium-gallery-1.jpg",
           "/assets/m1-premium-gallery-2.jpg",
-          "/assets/m1-premium-gallery-3.jpg",
-          "/assets/m1-premium-gallery-4.png"
+          "/assets/m1-premium-gallery-3.jpeg",
+          "/assets/m1-premium-gallery-4.jpeg"
           
         ],
         specs: {
@@ -206,7 +212,7 @@ export const categories: Category[] = [
           "Facilidad de instalación."
         ],
          gallery: [
-          "/assets/indico-gallery-1.png",
+          "/assets/indico-gallery-1.jpg",
           "/assets/indico-gallery-2.png",
           "/assets/indico-gallery-3.jpg",
           "/assets/indico-gallery-4.jpg"
