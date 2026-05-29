@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import CategoryPage from "./pages/CategoryPage";
 import ProductPage from "./pages/ProductPage";
+import LegalPages from "./pages/LegalPages";
 import { motion, useScroll, useSpring } from "motion/react";
 
 function ScrollToTop() {
@@ -48,6 +49,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/soluciones/:categoryId" element={<CategoryPage />} />
           <Route path="/producto/:productId" element={<ProductPage />} />
+          <Route path="/legal/:docId" element={<LegalPages />} />
         </Routes>
 
         <Footer />

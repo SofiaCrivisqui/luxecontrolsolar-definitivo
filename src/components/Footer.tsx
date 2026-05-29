@@ -49,14 +49,14 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
+       <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
           <p className="text-[10px] uppercase tracking-widest opacity-30">
             © 2026 Luxe Control Solar. Todos los derechos reservados.
           </p>
-          <div className="flex gap-8 text-[10px] uppercase tracking-widest opacity-30">
-            <a href="#" className="hover:opacity-100 transition-opacity">Privacidad</a>
-            <a href="#" className="hover:opacity-100 transition-opacity">Términos</a>
-            <a href="#" className="hover:opacity-100 transition-opacity">Cookies</a>
+          <div className="flex gap-8 text-[10px] uppercase tracking-widest opacity-40">
+            <Link to="/legal/privacidad" className="hover:opacity-100 transition-opacity">Privacidad</Link>
+            <Link to="/legal/terminos" className="hover:opacity-100 transition-opacity">Términos</Link>
+            <Link to="/legal/cookies" className="hover:opacity-100 transition-opacity">Cookies</Link>
           </div>
         </div>
       </div>
