@@ -31,7 +31,7 @@ export default function ArchitectsSection() {
             </div>
 
            <a 
-              href="https://wa.me/5491100000000?text=Hola! Me interesa hablar con un asesor técnico."
+              href="https://wa.me/5493517660196?text=Hola! Me interesa hablar con un asesor técnico."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-brand-ink text-brand-bg px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform"
